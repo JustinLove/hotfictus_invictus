@@ -1,0 +1,27 @@
+{
+  "author": "wondible",
+  "build": "63234",
+  "category": ["hotfix"],
+  "context": "client",
+  "date": "2014/03/26",
+  "description": "Patch the icon paths for the Invicutus Commander in 63180-63234",
+  "display_name": "Hotfictus Invictus",
+  "enabled": true,
+  "forum": null,
+  "id": "hotfictus_invictus",
+  "identifier": "com.wondible.pa.hotfictus_invictus",
+  "priority": 100,
+  "requires": [],
+  "scenes": {
+    "start": [
+      "coui://ui/mods/hotfictus_invictus/start.css",
+      "coui://ui/mods/hotfictus_invictus/start.js"
+    ],
+    "global_mod_list": [
+      "coui://ui/mods/hotfictus_invictus/catalog.js"
+    ]
+  },
+  "signature": "not yet implemented",
+  "version": "1.0.0"
+}
+
