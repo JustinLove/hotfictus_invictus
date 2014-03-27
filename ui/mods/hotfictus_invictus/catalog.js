@@ -4,7 +4,7 @@
   })
   if (!ic) return
 
-  ic.ImgSource = 'coui://ui/main/shared/img/commanders/img_imperial_invictus.png',
-  ic.ProfileImgSource = 'coui://ui/main/shared/img/commanders/profiles/profile_imperial_invictus.png',
-  ic.ThumbImgSource = 'coui://ui/main/shared/img/commanders/thumbs/img_imperial_invictus_thumb.png'
+  ic.ImgSource = ic.ImgSource.replace('delta', 'invictus')
+  ic.ProfileImgSource = ic.ProfileImgSource.replace('delta', 'invictus')
+  ic.ThumbImgSource = ic.ThumbImgSource.replace('delta', 'invictus')
 })()

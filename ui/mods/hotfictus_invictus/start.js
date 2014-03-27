@@ -7,7 +7,7 @@
       height: 400,
       width: 600,
       modal: true,
-      autoOpen: model.buildVersion() != '63234',
+      autoOpen: model.buildVersion() != '63475',
       buttons: {
           "EXIT": function () {
               model.exit();
