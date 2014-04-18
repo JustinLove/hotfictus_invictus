@@ -28,7 +28,12 @@
     });
   };
 
-  //var container = $('<div id="insertion_point"></div>')
-  //container.appendTo('body')
-  //loadTemplate(container, 'coui://ui/mods/hotfictus_invictus/start.html', model);
+  model.buildVersion.subscribe(function(version) {
+    if (version == undefined || version == '63475') {
+      return
+    }
+    var container = $('<div id="insertion_point"></div>')
+    container.appendTo('body')
+    loadTemplate(container, 'coui://ui/mods/hotfictus_invictus/start.html', model);
+  })
 })()
